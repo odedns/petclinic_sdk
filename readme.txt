@@ -1,7 +1,4 @@
-SSSSS
-AAAABBBB
-AAAAAAAaaaaa
-djdjjdaaa
+Some update
 ==========================================================================
 === Spring PetClinic Sample Application
 ==========================================================================
