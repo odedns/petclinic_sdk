@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="2.284" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="2.298" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -41,7 +41,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,17 +59,17 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testUsageLogAspectIsInvoked" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="2.014"/>
-  <testcase name="testBogusJpql" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.01"/>
+  <testcase name="testUsageLogAspectIsInvoked" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="2.049"/>
+  <testcase name="testBogusJpql" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.008"/>
   <testcase name="testApplicationManaged" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.007"/>
-  <testcase name="testGetVets" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.073"/>
+  <testcase name="testGetVets" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.064"/>
   <testcase name="testGetPetTypes" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.006"/>
   <testcase name="testFindOwners" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.018"/>
-  <testcase name="testLoadOwner" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.012"/>
-  <testcase name="testInsertOwner" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.033"/>
+  <testcase name="testLoadOwner" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.013"/>
+  <testcase name="testInsertOwner" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.03"/>
   <testcase name="testUpdateOwner" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.007"/>
-  <testcase name="testLoadPet" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.027"/>
-  <testcase name="testInsertPet" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.03"/>
+  <testcase name="testLoadPet" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.023"/>
+  <testcase name="testInsertPet" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.023"/>
   <testcase name="testUpdatePet" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.021"/>
-  <testcase name="testInsertVisit" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.026"/>
+  <testcase name="testInsertVisit" classname="org.springframework.samples.petclinic.jpa.OpenJpaEntityManagerClinicTests" time="0.029"/>
 </testsuite>
